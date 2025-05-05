@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home | Class Activities</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="stocks.html">Stocks</a></li>
+      <li><a href="dogs.html">Dogs</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Welcome to the Class Activities Site</h1>
+    <button id="stocksBtn" onclick="location.href='stocks.html'">Stocks</button>
+    <button id="dogsBtn" onclick="location.href='dogs.html'">Dogs</button>
+    <p id="quote"></p>
+  </main>
+  <div id="audioInstructions">
+    <p>Say "Hello", "Change the color to red", or "Navigate to stocks"</p>
+    <button onclick="annyang.start()">Turn On Audio</button>
+    <button onclick="annyang.abort()">Turn Off Audio</button>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
