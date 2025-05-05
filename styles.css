@@ -1,0 +1,28 @@
+nav ul {
+  display: flex;
+  list-style: none;
+  background: #ddd;
+  padding: 10px;
+  gap: 1rem;
+}
+
+nav li:hover {
+  background: #bbb;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  background: #007BFF;
+  color: white;
+  border: none;
+}
+
+#audioInstructions {
+  position: fixed;
+  bottom: 0;
+  background: #eee;
+  width: 100%;
+  padding: 10px;
+}
